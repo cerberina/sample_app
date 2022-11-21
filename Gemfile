@@ -21,6 +21,10 @@ gem 'jbuilder', '~> 2.7'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem 'minitest','>=5.16'
+gem 'minitest-reporters','>=1.5.0'
+gem 'guard', '~> 2.14'
+gem 'guard-minitest'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
