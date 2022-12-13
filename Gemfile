@@ -7,6 +7,8 @@ ruby '2.7.0'
 gem 'rails', '~> 6.1.7'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
+#For the CSS styles
+gem 'bootstrap-sass', '3.4.1'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
 # Use SCSS for stylesheets
@@ -25,6 +27,7 @@ gem 'minitest','>=5.16'
 gem 'minitest-reporters','>=1.5.0'
 gem 'guard', '~> 2.14'
 gem 'guard-minitest'
+gem 'rails-controller-testing'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
